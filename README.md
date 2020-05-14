@@ -53,6 +53,7 @@ docker build -t crypto-tools:latest .
 ### Build from sources by `NPM`
 
 ```shell
+mkdir -p dist
 npm install
 npm run build
 ```
