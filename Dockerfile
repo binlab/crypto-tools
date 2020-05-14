@@ -4,7 +4,8 @@ WORKDIR /build
 
 ADD . .
 
-RUN npm install \
+RUN mkdir -p dist \
+    && npm install \
     && npm run build
 
 FROM nginx:1.18.0-alpine

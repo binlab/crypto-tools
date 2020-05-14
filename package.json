@@ -14,7 +14,6 @@
   "dependencies": {
     "copy-dir": "^1.2.0",
     "jade": "^1.11.0",
-    "make-dir": "^3.1.0",
     "marked": "^1.0.0",
     "parse-md": "^2.0.4",
     "constantinople": ">=3.1.1",

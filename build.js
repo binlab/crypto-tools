@@ -3,10 +3,7 @@ const jade = require('jade');
 const parseMD = require('parse-md');
 const path = require('path');
 const marked = require('marked');
-const makeDir = require('make-dir');
 const copydir = require('copy-dir');
-
-makeDir('dist/')
 
 copydir.sync('src/contents/js', 'dist/js', {
   utimes: true,
