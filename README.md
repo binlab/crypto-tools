@@ -1,4 +1,4 @@
-#  :closed_lock_with_key: Crypto Tools
+# ![lock](https://github.githubassets.com/images/icons/emoji/unicode/1f510.png) Crypto Tools
 
 <p align="center">
   <a href="https://github.com/binlab/crypto-tools/releases"><img src="https://img.shields.io/github/v/release/binlab/crypto-tools.svg?style=flat&logo=github" alt="GitHub release"></a>
