@@ -1,0 +1,15 @@
+{
+  "output": "..",
+  "locals": {
+    "name": "Crypto Tools",
+    "description": "Crypto tools writing by JavaScript"
+  },
+  "plugins": [],
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  }
+}

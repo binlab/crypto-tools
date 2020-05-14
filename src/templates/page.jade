@@ -1,0 +1,52 @@
+extends layout
+
+block body
+  script(src='js/main.js')
+
+  #main
+    h1
+      = page.title
+    .description
+      = page.metadata.description
+    .input
+      if page.metadata.file_input
+        #droppable-zone
+          #droppable-zone-wrapper
+            #droppable-zone-text
+              | Drop File Here
+          input#input.droppable-file(type='file', placeholder='Input2')
+      else
+        textarea#input(placeholder='Input')
+    if page.metadata.bits
+      .option-block
+        label(for='bits') Output Bits:
+        input#bits(type='number', value=page.metadata.bits, step=8, min=8, data-option=true)
+    .submit
+      input#execute.btn.btn-default(type='button', value=page.metadata.action)
+      if page.metadata.auto_update
+        label
+          input#auto-update(type='checkbox', value='1', checked='checked')
+          | Auto Update
+      label
+        input#hex(type='radio', name='format', value='hex', checked='checked')
+        | Hexadecimal
+      label
+        input#base64(type='radio', name='format', value='base64')
+        | Base-64
+    .output
+      textarea#output(placeholder='Output')
+    != page.html
+  #sidebar
+    .col
+      include includes/hash.jade
+      include includes/encoder.jade
+      include includes/misc.jade
+    .col
+      include includes/file_hash.jade
+      include includes/decoder.jade
+    .clearfix
+
+  script(src='js/base64.js')
+  script(src=page.metadata.js)
+  script
+    | method = #{ page.metadata.method };
