@@ -1,4 +1,16 @@
-# Crypto Tools
+#  :closed_lock_with_key: Crypto Tools
+
+<p align="center">
+  <a href="https://github.com/binlab/crypto-tools/releases"><img src="https://img.shields.io/github/v/release/binlab/crypto-tools.svg?style=flat&logo=github" alt="GitHub release"></a>
+  <a href="https://github.com/binlab/crypto-tools/tags"><img src="https://img.shields.io/github/v/tag/binlab/crypto-tools.svg?style=flat&logo=github" alt="GitHub tag"></a>
+</p>
+<p align="center">
+  <a href="https://hub.docker.com/r/binlab/crypto-tools/"><img src="https://img.shields.io/docker/cloud/automated/binlab/crypto-tools.svg?style=flat&logo=docker" alt="Docker Automated"></a>
+  <a href="https://hub.docker.com/r/binlab/crypto-tools/builds"><img src="https://img.shields.io/docker/cloud/build/binlab/crypto-tools.svg?style=flat&logo=docker" alt="Docker Build Status"></a>
+  <a href="https://hub.docker.com/r/binlab/crypto-tools/tags"><img src="https://img.shields.io/badge/dynamic/json.svg?label=version&query=$.results[1].name&url=https://hub.docker.com/v2/repositories/binlab/crypto-tools/tags&style=flat&logo=docker" alt="Latest Version"></a>
+  <a href="https://hub.docker.com/r/binlab/crypto-tools/"><img src="https://img.shields.io/docker/stars/binlab/crypto-tools.svg?style=flat&logo=docker" alt="Docker Stars"></a>
+  <a href="https://hub.docker.com/r/binlab/crypto-tools/"><img src="https://img.shields.io/docker/pulls/binlab/crypto-tools.svg?style=flat&logo=docker" alt="Docker Pulls"></a>
+</p>
 
 ### Set of tools for some crypto- and data- conversions based on JavaScript.
 
