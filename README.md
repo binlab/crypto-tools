@@ -1,4 +1,4 @@
-# ![lock](https://github.githubassets.com/images/icons/emoji/unicode/1f510.png) Crypto Tools
+# Crypto Tools <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f510.png" alt="lock" width="32"/> 
 
 <p align="center">
   <a href="https://github.com/binlab/crypto-tools/releases"><img src="https://img.shields.io/github/v/release/binlab/crypto-tools.svg?style=flat&logo=github" alt="GitHub release"></a>
